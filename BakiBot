@@ -103,7 +103,7 @@ client.on('message', async message => {
             // Set the color of the embed
             .setColor(0x00FF68)
             // Set the main content of the embed
-            .setDescription('Help: You just did this. \n Ping: Pong! \n Avatar: Will reply with the url for your avatar \n OOCB: Random Out of context chat image \n Todd: Howard \n Tweet: Random tweet from Connor');
+            .setDescription('Prefix: Do this "/" before any command. \n Help: You just did this. \n Ping: Pong! \n Avatar: Will reply with the url for your avatar \n OOCB: Random Out of context chat image \n Todd: Howard \n ');
         // Send the embed to the same channel as the message
         message.channel.send(embed);
     }
